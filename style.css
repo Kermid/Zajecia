@@ -111,3 +111,165 @@ nav ul li a:hover
 }
 
 /*sekcja funkcji*/
+.features
+{
+    padding:60px 0;
+    text-align: center;
+
+}
+.features h2
+{
+    margin-bottom:40px;
+
+}
+.features-grid
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.features
+{
+    flex: 1 1 250;
+    margin: 20px;
+}
+.feature-icon
+{
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+/* Sekacja opinie */
+.testiomnials
+{
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+.testiomnials h2
+{
+    margin-bottom: 40px;
+}
+.testiomnials-grid
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.testimonial{
+    background-color: #ffffff;
+    flex:1 1 45%;
+    margin:0 auto;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+.testmonial blockquote
+{
+    
+}
+/* sekcja pobierz */
+.download{
+    padding:60px 0;
+    text-align: center;
+}
+.download h2
+{
+    margin-bottom:20px;
+}
+.download p 
+{
+    margin-bottom: 20px;
+}
+/* stopka */
+footer{
+    background-color: #333;
+    color:#fff;
+    padding:40 0;
+}
+.footer-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-info
+{
+    margin-bottom: 10px;
+}
+.social-links a
+{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+.social-links a:hover
+{
+    color: #007bff;
+    cursor: pointer;
+}
+/* formularz newsletter */
+
+.newsletter form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.newsletter label{
+    margin-right: 10px;
+}
+.newsletter input[type="email"]
+{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 5px;
+    flex:1;
+}
+.newsletter button
+{
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color:#fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.newsletter button:hover{
+    background-color: #0056b3;
+
+}
+
+/* Rezponsywnosc */
+@media(max-width:768px)
+{
+    .header-container
+    {
+        flex-direction: column;
+    }
+}
+nav ul{
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+nav ul li{
+    margin: 10px 0;
+}
+.features-grid
+{
+    flex-direction: column;
+}
+.testiomnials-grid
+{
+    flex-direction: column;
+}
+.footer-container
+{
+    flex-direction: column;
+    text-align: center;
+}
